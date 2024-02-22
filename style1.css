@@ -1,0 +1,124 @@
+.contact-form-area form #error_message{
+    background: #F3A6A6 ;
+    text-align: center;
+}
+.contact-form-area form #success_message{
+    background: #CCF5CC;
+    text
+}
+.contact-form-area form .ajax_response {
+    padding:20px 10px;
+    border: 0;
+    display: inline-block;
+    margin-top: 30px;
+    padding-left: 5px;
+    cursor: pointer;
+  display:none;
+  color:#555;
+  text-align: center;
+}
+#map{
+    width: 100%;
+    height: 400px;
+}
+.mapContainer{
+    width:50%;
+    position: relative;
+}
+.mapContainer a.direction-link {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 100010;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 8px 20px 8px 50px;
+    background: #0094de;
+    background-image: url('direction-icon.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.mapContainer a.direction-link:hover {
+    text-decoration: none;
+    background: #0072ab;
+    color: #FFF;
+    background-image: url('direction-icon.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.comment-form-container {
+    background: #F0F0F0;
+    border: #e0dfdf 1px solid;
+    padding: 20px;
+    border-radius: 2px;
+}
+
+.input-row {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    border-radius: 2px;
+    padding: 10px;
+    border: #e0dfdf 1px solid;
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    background: #333;
+    border: #1d1d1d 1px solid;
+    color: #f0f0f0;
+    font-size: 0.9em;
+    width: 100px;
+    border-radius: 2px;
+    cursor:pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.comment-row {
+  border-bottom: #e0dfdf 1px solid;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.outer-comment {
+  background: #F0F0F0;
+  padding: 20px;
+  border: #dedddd 1px solid;
+}
+
+span.commet-row-label {
+  font-style: italic;
+}
+
+span.posted-by {
+  color: #09F;
+}
+
+.comment-info {
+  font-size: 0.8em;
+}
+.comment-text {
+    margin: 10px 0px;
+}
+.btn-reply {
+    font-size: 0.8em;
+    text-decoration: underline;
+    color: #888787;
+    cursor:pointer;
+}
+#comment-message {
+    margin-left: 20px;
+    color: #189a18;
+    display: none;
+}
+.styyle{
+    margin-right: 10rem;
+}

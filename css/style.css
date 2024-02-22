@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+
+}
+body{
+    overflow-x: hidden;
+}
+#header{
+    width: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    z-index: 1000;
+}
+.fa-hamburger{
+    font-size: 4rem;
+    z-index: 10000;
+    color: yellow;
+    cursor: pointer;
+    display: none;
+}
+ .logo img{
+      height: 8rem;
+      width: 20rem;
+ }
+ 
+ nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    
+ }
+
+ nav ul li{
+     margin-right: 4rem;
+    transition: 0.8s all;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+
+ }
+
+ nav ul li:hover{
+    background-color: darkorange;
+    box-shadow: 0.7px #000 ;
+ }
+ nav ul li  a{
+    display: inline;
+    color: #fff;
+    font-size: 2rem;
+    padding: 20px;
+    text-decoration: none !important;
+   
+}
+nav ul li  a:hover{
+    color: #000;
+}
+ #home{
+     background-color: #0006;
+     min-height: 100vh;
+ }
+
+ @media(max-width:768px){
+     .fa-hamburger{
+         display: block;
+     }
+     nav{
+         position: fixed;
+         top: 0; left: -120%;
+         height: 100vh;
+         width: 35rem;
+         background-color: #000;
+     }
+    nav ul{
+        flex-flow: column;
+        justify-content: center;
+        height: 100%;
+    }
+    nav ul li{
+        margin: 1rem 0;
+
+
+    }
+    nav ul li a{
+        font-size: 2.5rem;
+        border-radius: 5rem;
+    }
+ }
+
+        
+    
